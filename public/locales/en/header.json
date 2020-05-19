@@ -1,0 +1,15 @@
+{
+  "actions": {
+    "close": "Close",
+    "expand": "Expand",
+    "minimize": "Minimize",
+    "more": "More",
+    "rosetta": "Languages",
+    "shrink": "Shrink"
+  },
+  "rosetta": {
+    "en": "English",
+    "fr": "French"
+  },
+  "title": "Need help?"
+}

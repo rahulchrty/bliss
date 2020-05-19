@@ -1,0 +1,179 @@
+{
+  "application": {
+    "open": 1,
+    "qualification": true,
+    "languages": ["en", "fr"]
+  },
+  "avatar": {
+    "background": false,
+    "styles": {},
+    "stylesMobile": {}
+  },
+  "banner": {
+    "active": true,
+    "cookie": true,
+    "dismissable": true,
+    "more": true,
+    "moreLink": "https://goo.gle",
+    "styles": {},
+    "stylesMobile": {},
+    "transient": false
+  },
+  "bubble": {
+    "styles": {},
+    "stylesMobile": {}
+  },
+  "chatbox": {
+    "expandable": true,
+    "margin": 16,
+    "styles": {
+      "shadow": 6
+    },
+    "stylesMobile": {}
+  },
+  "dragon": {
+    "active": true,
+    "boundaries": true,
+    "factor": 100,
+    "persist": true
+  },
+  "feedback": {
+    "active": true,
+    "askChoices": true,
+    "askComment": true
+  },
+  "footer": {
+    "more": true,
+    "styles": {
+      "shadow": true
+    },
+    "stylesMobile": {}
+  },
+  "header": {
+    "actions": {
+      "close": true,
+      "expand": true,
+      "minimize": true,
+      "more": false,
+      "translate": true
+    },
+    "styles": {
+      "shadow": true
+    },
+    "stylesMobile": {},
+    "title": true
+  },
+  "input": {
+    "delay": 300,
+    "maxLength": 100,
+    "styles": {},
+    "stylesMobile": {}
+  },
+  "interaction": {
+    "avatar": {
+      "request": false,
+      "response": true
+    },
+    "loader": [400, 600],
+    "styles": {},
+    "stylesMobile": {}
+  },
+  "loader": {
+    "size": 5,
+    "styles": {},
+    "stylesMobile": {}
+  },
+  "menu": {
+    "spacing": 4,
+    "styles": {
+      "shadow": true
+    },
+    "stylesMobile": {}
+  },
+  "modal": {
+    "maxWidth": "80%",
+    "minWidth": "50%"
+  },
+  "onboarding": {
+    "styles": {},
+    "stylesMobile": {},
+    "tips": true,
+    "top": true
+  },
+  "root": "dydu-root",
+  "secondary": {
+    "automatic": true,
+    "mode": "left",
+    "styles": {
+      "shadow": 6,
+      "width": 500
+    },
+    "stylesMobile": {},
+    "transient": true
+  },
+  "spaces": {
+    "active": true,
+    "detection": [
+      {
+        "active": false,
+        "mode": "cookie",
+        "value": "dyduspace"
+      },
+      {
+        "active": false,
+        "mode": "localstorage",
+        "value": "dyduspace"
+      },
+      {
+        "active": false,
+        "mode": "urlparameter",
+        "value": "dyduspace"
+      },
+      {
+        "active": false,
+        "mode": "global",
+        "value": "dyduspace"
+      },
+      {
+        "active": false,
+        "mode": "route",
+        "value": {"/": "dydu"}
+      },
+      {
+        "active": false,
+        "mode": "hostname",
+        "value": {"doyoudreamup.com": "dydu"}
+      }
+    ],
+    "items": ["default", "foo", "bar"]
+  },
+  "suggestions": {
+    "limit": 3,
+    "styles": {
+      "shadow": 6
+    },
+    "stylesMobile": {}
+  },
+  "tabs": {
+    "items": [
+      {"icon": "icons/message-text.png", "key": "dialog"},
+      {"icon": "icons/account-box.png", "key": "contacts"}
+    ],
+    "selected": "dialog",
+    "styles": {},
+    "stylesMobile": {},
+    "title": false
+  },
+  "teaser": {
+    "styles": {
+      "bottom": 16,
+      "right": 16
+    },
+    "stylesMobile": {}
+  },
+  "top": {
+    "size": 3,
+    "styles": {},
+    "stylesMobile": {}
+  }
+}
